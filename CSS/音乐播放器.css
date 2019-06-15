@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.action
+{
+    background:rgba(15, 238, 64, 0.15);
+}
+
+.tran{
+    color:transparent;
+}
+
+.opac1{
+    opacity: 1;
+}
+
+.opac2{
+    opacity: 0.5;
+}
+
+ol li {
+    list-style: none;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+}
+
+.header>img {
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0.5;
+}
+
+.header>img:hover {
+    opacity: 1;
+}
+
+.header_li {
+    float: right;
+    margin-top: -20px;
+    margin-left: 20px;
+    color: #FFFF;
+    opacity: 0.5;
+}
+
+.header_li:hover {
+    opacity: 1;
+}
+
+.middler {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+
+.middler_left {
+    float: left;
+    width: 800px;
+    height: 100%;
+}
+
+.middler_left_header {
+    width: 800px;
+    height: 50px;
+}
+
+.middler_left_header ol li {
+    cursor: pointer;
+    float: left;
+}
+
+.middler_left_header ol li div {
+    color: rgb(255, 248, 248, 0.5);
+    line-height: 30px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgba(248, 245, 245, 0.2);
+}
+
+.middler_left_header ol li div:hover {
+    color: rgba(248, 245, 245, 1);
+    border: 1px solid rgba(248, 245, 245, 1);
+}
+
+.middler_left_music {
+    width: 800px;
+    height: 600px;
+}
+
+.middler_left_music ol{
+    height: 50px;
+    border-bottom: 1px solid rgba(98, 92, 92, 0.25);
+}
+
+.middler_left_music ol li {
+    float: left;
+}
+
+.music_li {
+    color: #FFFF;
+    height: 50px;
+    line-height: 50px;
+}
+
+.music_check {
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.6;    
+}
+.music_check:hover{
+    opacity: 1;
+}
+.music_check input{
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+}
+
+.music_sing {
+    width: 550px;
+    cursor: pointer;
+    opacity: 0.6;    
+}
+
+.music_sing .str{
+    position: relative;
+    right: 5px;
+    width: 20px;
+    height: 10px;
+    background:url(../img/wave.gif);
+}
+
+.music_sing span div{
+    display: inline-block;
+}
+.music_sing:hover{
+    opacity: 1;
+}
+.music_sing_div {
+    width: 200px;
+    height: 100%;
+    float: right;
+    display: none;
+}
+
+.music_sing_div div {
+    float: left;
+}
+
+.music_ico1 {
+    position: relative;
+    top: 10%;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon.png);
+    background-position-x: 122px;
+    background-position-y: 0px;
+}
+
+.music_ico11{
+    background-position: -78px  -224px;
+}
+
+.music_ico1:hover {
+    background-position-x: 82px;
+}
+
+.music_ico2 {
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon.png);
+    background-position-x: 122px;
+    background-position-y: 268px;
+}
+
+.music_ico2:hover {
+    background-position-x: 82px;
+}
+
+.music_ico3 {
+    position: relative;
+    top: 10%;
+    left: 30%;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon.png);
+    background-position-x: 122px;
+    background-position-y: 313px;
+}
+
+.music_ico3:hover {
+    background-position-x: 82px;
+}
+
+.music_singer {
+    width: 100px;
+    cursor: pointer;
+    opacity: 0.6;    
+}
+
+.music_singer:hover{
+    opacity: 1;
+}
+
+.middler_left_music_list {
+    width: 100%;
+    height: 600px;
+}
+
+.middler_right {
+    float: right;
+    width: 400px;
+    height: 100%;
+}
+
+.middler_right_top {
+    height: 200px;
+    width: 400px;
+    background: url(../img/qq_background.png) 0 0 no-repeat;
+    background-position-x: 109px;
+    background-position-y: 5px;
+}
+
+
+.middler_right_top img {
+    background-size: 100%;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 186px;
+    height: 186px;
+}
+
+.middler_right_bottom {
+    width: 400px;
+    height: 150px;
+}
+
+.middler_right_music {
+    width: 100%;
+    /* height: 30px; */
+    line-height: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.6);
+}
+
+.middler_right_music a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.6);
+}
+
+.middler_right_music a:hover {
+    color: rgb(255, 255, 255, 1);
+}
+
+.word_ofsong {
+    width: 100%;
+    height: 300px;
+}
+
+.lrc_content{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.word {
+    color: green;
+}
+
+.word_ofsong p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 1200px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.bottom a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    background: url(../img/player.png)0 0 no-repeat;
+}
+
+.bottom .music_on {
+    width: 19px;
+    height: 20px;
+    background-position: 0 -30px;
+}
+
+.bottom .music_stop {
+    width: 21px;
+    height: 29px;
+    background-position: 0 0;
+    vertical-align: -5px;
+}
+
+.bottom .music_stop2 {
+    background-position: -30px 0;
+}
+
+.bottom .music_next {
+    width: 19px;
+    height: 20px;
+    background-position: 0 -52px;
+}
+
+.music_bofang_info {
+    width: 700px;
+    height: 50px;
+    display: inline-block;
+    /* 防止这个块级元素把右侧功能块挤到下方 */
+}
+
+.music_bofang_info_top {
+    line-height: 30px;
+    width: 100%;
+    height: 30px;
+    color: rgba(255, 254, 254, 0.5)
+}
+
+.music_bofang_info_name {
+    float: left;
+}
+
+.music_bofang_info_name:hover {
+    color: rgba(255, 254, 254, 1)
+}
+
+.music_bofang_info_time {
+    float: right;
+}
+
+.music_bofang_info_bar {
+    width: 100%;
+    height: 20px;
+}
+
+.music_bofang_info_bar .music_bofang_info_wai {
+    width: 98%;
+    height: 5px;
+    margin-top: 10px;
+    background: rgba(255, 254, 254, 0.5);
+}
+
+.music_bofang_info_bar .music_bofang_info_zhong {
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 254, 254, 1);
+}
+
+.music_bofang_info_bar .music_bofang_info_radio {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 2px;
+}
+
+.bottom .music_for1 {
+    width: 26px;
+    height: 25px;
+    background-position: 0 -205px;
+}
+
+.bottom .music_for2 {
+    width: 23px;
+    height: 20px;
+    background-position: 0 -260px;
+}
+
+.bottom .music_for3 {
+    width: 25px;
+    height: 19px;
+    background-position: 0 -74px;
+}
+
+.bottom .music_for4 {
+    width: 26px;
+    height: 25px;
+    background-position: 0 -232px;
+}
+
+.bottom .music_like {
+    width: 24px;
+    height: 21px;
+    background-position: 0 -96px;
+}
+
+.bottom .music_like2 {
+    background-position: -30px -96px;
+}
+
+.bottom .music_down {
+    width: 22px;
+    height: 21px;
+    background-position: 0 -120px;
+}
+
+.bottom .music_msg {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -400px;
+}
+
+.bottom .music_only {
+    width: 74px;
+    height: 27px;
+    background-position: 0 -281px;
+}
+
+.bottom .music_only2 {
+    background-position: 0 -310px;
+}
+
+.bottom .music_voice {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
+
+.bottom .music_voice_ico {
+    width: 26px;
+    height: 21px;
+    background-position: 0 -144px;
+}
+
+.bottom .music_voice_ico_wai {
+    position: relative;
+    left: 28px;
+    top: -15px;
+    width: 70px;
+    height: 5px;
+    background: rgba(255, 254, 254, 0.5);
+}
+
+.bottom .music_voice_ico_zhong {
+    width: 20px;
+    height: 100%;
+    background: rgba(255, 254, 254, 1);
+}
+
+.bottom .music_voice_ico_radio {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: -6px;
+    left: 20px;
+    background: rgba(255, 254, 254, 1);
+}
+
+.maskingcolor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.maskingimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: url(../img/foo.jpg);
+    background-size: cover;
+    filter: blur(80px);
+}
+
+.songwriter2{
+    color: rgba(255, 255, 255,0.3);
+    display: block;
+    /* visibility: hidden; */
+}
+.songwriter{
+    color: green;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../音乐播放器/CSS/音乐播放器.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../音乐播放器/jquery库文件/jquery-3.2.1.js"></script>
+    <script src="../音乐播放器/JS/jquery.nicescroll.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <img src="../音乐播放器/img/QQlogo.png">
+            <ol>
+                <li class="header_li">
+                    <input class="text" type="text" value="恋爱" style="width:100px">
+                    <button class="query">搜索歌曲</button>
+                </li>
+                <li class="header_li">登录</li>
+                <li class="header_li">设置</li>
+            </ol>
+        </div>
+        <div>
+           <audio  id="audio"class="audio" preload="auto" autoplay="autoplay"> <!-- controls -->
+                浏览器不支持h5音乐标签
+            </audio>
+        </div>
+        <div class="middler">
+            <div class="middler_left">
+                <div class="middler_left_header">
+                    <ol>
+                        <li class="list">
+                            <div><span class="list_shoucang">收藏</span></div>
+                        </li>
+                        <li class="list">
+                            <div><span class="list_add">添加到</span></div>
+                        </li>
+                        <li class="list">
+                            <div><span class="list_down">下载</span></div>
+                        </li>
+                        <li class="list">
+                            <div><span class="list_del">删除</span></div>
+                        </li>
+                        <li class="list">
+                            <div><span class="list_all">清空列表</span></div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="middler_left_music">
+                    <ol>
+                        <li class="music_li music_check"><input type="checkbox"class="Allcheckbox"></li>
+                        <li class="music_li music_sing">歌曲</li>
+                        <li class="music_li music_singer">歌手</li>
+                    </ol>
+                    <div class="middler_left_music_list">
+                        <ol class="middler_left_music_list_ol ">
+                            <li class="music_li music_check"><input type="checkbox">
+                            <li class="music_li music_sing">
+                                <span>
+                                    <div class="end"></div>
+                                </span>我好想你
+                                <div class="music_sing_div">
+                                    <div class="music_ico1" title="播放"></div>
+                                    <div class="music_ico2" title="添加"></div>
+                                    <div class="music_ico3" title="转发">1</div>
+                                </div>
+                            </li>
+                            <li class="music_li music_singer opac1">苏打绿</li>
+                        </ol>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="middler_right">
+                <div class="middler_right_top">
+                    <a href="javascript:;" class="singsong_photo">
+                        <img src="../音乐播放器/img/foo.jpg" alt="加载失败，请检查网络">
+                    </a>
+                </div>
+                <div class="middler_right_bottom">
+                    <div class="middler_right_music songna">
+                        歌曲名:
+                        <a href="javascript:;" class="songname" title="老猪佩奇监制">老猪佩奇</a>
+                    </div>
+                    <div class="middler_right_music singer">
+                        歌手名:
+                        <a href="javascript:;" class="artistname" title="当红歌手">陈奕迅</a>
+                    </div>
+                    <div class="middler_right_music spec">
+                        专辑名:
+                        <a href="javascript:;" class="albumname" title="摩西摩西">爱何阔楽</a>
+                    </div>
+                </div>
+                <div class="word_ofsong">
+                    <div class="lrc_content" id="lrc_content" name="textfield" cols="70" rows="10">
+                        <!-- 存放歌词容器 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <a href="javascript:;" class="music_on" title="上一阔"></a>
+            <a href="javascript:;" class="music_stop" title="不要、停"></a>
+            <a href="javascript:;" class="music_next" title="下一阔"></a>
+            <div class="music_bofang_info">
+                <div class="music_bofang_info_top">
+                    <span class="music_bofang_info_name">
+                        无
+                    </span>
+                    <span class="music_bofang_info_time" id="music_bofang_info_time">
+                    </span>
+                </div>
+                <div class="music_bofang_info_bar">
+                    <div class="music_bofang_info_wai">
+                        <!-- 浅色进度条 -->
+                        <div class="music_bofang_info_zhong">
+                            <!-- 深色进度条 -->
+                        </div>
+                        <div class="music_bofang_info_radio">
+                            <!-- 进度点 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:;" class="music_for music_for1"title="播放模式"></a>
+            <a href="javascript:;" class="music_like" title="喜欢"></a>
+            <a href="javascript:;" class="music_down" title="下载"></a>
+            <a href="javascript:;" class="music_msg" title="评论"></a>
+            <a href="javascript:;" class="music_only music_only" title="纯净模式"></a>
+            <div class="music_voice">
+                <a href="javascript:;" class="music_voice_ico"></a>
+                <!-- 音量控制条 -->
+                <div class="music_voice_ico_wai">
+                    <!-- 浅色背景进度条 -->
+                    <div class="music_voice_ico_zhong">
+                        <!-- 深色进度条 -->
+                        <div class="music_voice_ico_radio">
+                            <!-- 进度点 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maskingimg" id="maskingimg"></div>
+    <div class="maskingcolor"></div>
+</body>
+<script src="../音乐播放器/JS/音乐播放器.js"></script>
+<script src="../音乐播放器/JS/musicAjax.JS"></script>
+<script src="../音乐播放器/JS/Progressbar.js"></script>
+</html>
