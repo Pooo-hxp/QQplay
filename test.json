@@ -1,0 +1,1543 @@
+{
+    "result": {
+        "songs": [
+            {
+                "name": "风筝误",
+                "id": 32785674,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 918054,
+                        "name": "刘珂矣",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 100.0,
+                "st": 0,
+                "rt": null,
+                "fee": 8,
+                "v": 57,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 3286141,
+                    "name": "半壶纱",
+                    "picUrl": "https://p1.music.126.net/SKujq5vqqv4KYOVFk7SiRA==/3407386538630284.jpg",
+                    "tns": [],
+                    "pic": 3407386538630284
+                },
+                "dt": 237000,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9522198,
+                    "vd": -35900.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5713336,
+                    "vd": -33400.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3808905,
+                    "vd": -31600.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 7,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 64,
+                "mst": 9,
+                "cp": 1415841,
+                "mv": 423127,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1451923200007,
+                "privilege": {
+                    "id": 32785674,
+                    "fee": 8,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 128000,
+                    "dl": 0,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 128000,
+                    "toast": false,
+                    "flag": 2
+                }
+            },
+            {
+                "name": "风筝误 (纯音乐)",
+                "id": 33789400,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 918054,
+                        "name": "刘珂矣",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 95.0,
+                "st": 0,
+                "rt": null,
+                "fee": 8,
+                "v": 61,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 3286141,
+                    "name": "半壶纱",
+                    "picUrl": "https://p1.music.126.net/SKujq5vqqv4KYOVFk7SiRA==/3407386538630284.jpg",
+                    "tns": [],
+                    "pic": 3407386538630284
+                },
+                "dt": 272040,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 10884745,
+                    "vd": -35900.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 6530864,
+                    "vd": -33200.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 4353923,
+                    "vd": -31400.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 16,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 64,
+                "mst": 9,
+                "cp": 1415841,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1451923200007,
+                "privilege": {
+                    "id": 33789400,
+                    "fee": 8,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 128000,
+                    "dl": 0,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 128000,
+                    "toast": false,
+                    "flag": 2
+                }
+            },
+            {
+                "name": "风筝误",
+                "id": 863967246,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 12872097,
+                        "name": "苏子",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 85.0,
+                "st": 0,
+                "rt": null,
+                "fee": 8,
+                "v": 2,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 71719667,
+                    "name": "再见只是陌生人",
+                    "picUrl": "https://p1.music.126.net/w91HvZRA2UYodSZlBNFpbg==/109951163413385395.jpg",
+                    "tns": [],
+                    "pic_str": "109951163413385395",
+                    "pic": 109951163413385395
+                },
+                "dt": 232685,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9310085,
+                    "vd": 0.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5586068,
+                    "vd": 0.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3724060,
+                    "vd": 0.0
+                },
+                "a": null,
+                "cd": "1",
+                "no": 3,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 0,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 700012,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1531843200007,
+                "privilege": {
+                    "id": 863967246,
+                    "fee": 8,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 128000,
+                    "dl": 0,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 128000,
+                    "toast": false,
+                    "flag": 256
+                }
+            },
+            {
+                "name": "风筝误（笛子版）（Cover：苏子）",
+                "id": 1351663396,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 30544376,
+                        "name": "竹影聆风",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 75.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 3,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 75794395,
+                    "name": "笛子 风筝误【竹影聆风】",
+                    "picUrl": "https://p1.music.126.net/tG0RZnKd4WKQeDglQFILYA==/109951163923195258.jpg",
+                    "tns": [],
+                    "pic_str": "109951163923195258",
+                    "pic": 109951163923195258
+                },
+                "dt": 237635,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9507570,
+                    "vd": 0.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5704560,
+                    "vd": 0.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3803054,
+                    "vd": 0.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 1,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 0,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 0,
+                "privilege": {
+                    "id": 1351663396,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 320000,
+                    "dl": 320000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误",
+                "id": 1304882707,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 29304233,
+                        "name": "熊宝",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 50.0,
+                "st": 0,
+                "rt": null,
+                "fee": 8,
+                "v": 3,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 72593720,
+                    "name": "熊宝",
+                    "picUrl": "https://p1.music.126.net/lj_wQCGd9_sUEzbuoeUaDQ==/109951163514355885.jpg",
+                    "tns": [],
+                    "pic_str": "109951163514355885",
+                    "pic": 109951163514355885
+                },
+                "dt": 236242,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9452191,
+                    "vd": -46900.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5671332,
+                    "vd": -44300.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3780902,
+                    "vd": -42600.0
+                },
+                "a": null,
+                "cd": "1",
+                "no": 1,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 0,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 700012,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1535126400007,
+                "privilege": {
+                    "id": 1304882707,
+                    "fee": 8,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 128000,
+                    "dl": 0,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 128000,
+                    "toast": false,
+                    "flag": 256
+                }
+            },
+            {
+                "name": "风筝误（演唱者：小豆苗/原创音乐人余建）（Cover：熊宝）",
+                "id": 1361336752,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 31446950,
+                        "name": "余建",
+                        "tns": [],
+                        "alias": []
+                    },
+                    {
+                        "id": 0,
+                        "name": "小豆苗",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 25.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 4,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 78706360,
+                    "name": "小豆苗",
+                    "picUrl": "https://p1.music.126.net/kMDOU05Ns0ueTCRBHyWUew==/109951164024905946.jpg",
+                    "tns": [],
+                    "pic_str": "109951164024905946",
+                    "pic": 109951164024905946
+                },
+                "dt": 238236,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9531603,
+                    "vd": -27200.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5718979,
+                    "vd": -24500.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3812667,
+                    "vd": -22600.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 1,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 0,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 0,
+                "privilege": {
+                    "id": 1361336752,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 999000,
+                    "dl": 999000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误.惊丑 (剔银灯)",
+                "id": 131344,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 4057,
+                        "name": "刘异龙",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 20.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 17,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 12730,
+                    "name": "中国昆曲音像库：刘异龙唱腔精粹",
+                    "picUrl": "https://p1.music.126.net/w6pq0dWhKEm8cWRfB6oRAg==/116548232560538.jpg",
+                    "tns": [],
+                    "pic": 116548232560538
+                },
+                "dt": 120960,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 4843127,
+                    "vd": 1.45726
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 2422099,
+                    "vd": 1.84513
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 1453688,
+                    "vd": 1.65833
+                },
+                "a": null,
+                "cd": "1",
+                "no": 19,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 22039,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1105113600000,
+                "privilege": {
+                    "id": 131344,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 999000,
+                    "dl": 999000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "《风筝误.惊丑》 锦地花",
+                "id": 5269319,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 122455,
+                        "name": "群星",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 665,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 512903,
+                    "name": "中国昆曲音像库",
+                    "picUrl": "https://p1.music.126.net/bt1Q2IapwH3vkepqW-LFdw==/1781208837010261.jpg",
+                    "tns": [],
+                    "pic": 1781208837010261
+                },
+                "dt": 100754,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 4053122,
+                    "vd": 1.45162
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 2038560,
+                    "vd": 1.74539
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 1232735,
+                    "vd": 0.434276
+                },
+                "a": null,
+                "cd": "1",
+                "no": 102,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1041350400004,
+                "privilege": {
+                    "id": 5269319,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 320000,
+                    "dl": 320000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误.前亲 (山花子)(粉孩儿)",
+                "id": 131346,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 4057,
+                        "name": "刘异龙",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 17,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 12730,
+                    "name": "中国昆曲音像库：刘异龙唱腔精粹",
+                    "picUrl": "https://p1.music.126.net/w6pq0dWhKEm8cWRfB6oRAg==/116548232560538.jpg",
+                    "tns": [],
+                    "pic": 116548232560538
+                },
+                "dt": 128653,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 5151382,
+                    "vd": 1.61001
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 2576232,
+                    "vd": 2.19907
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 1546171,
+                    "vd": 1.19357
+                },
+                "a": null,
+                "cd": "1",
+                "no": 21,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 22039,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1105113600000,
+                "privilege": {
+                    "id": 131346,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 999000,
+                    "dl": 999000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "《风筝误.前亲》 山花儿 粉孩儿",
+                "id": 5269320,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 122455,
+                        "name": "群星",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 665,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 512903,
+                    "name": "中国昆曲音像库",
+                    "picUrl": "https://p1.music.126.net/bt1Q2IapwH3vkepqW-LFdw==/1781208837010261.jpg",
+                    "tns": [],
+                    "pic": 1781208837010261
+                },
+                "dt": 128731,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 5171171,
+                    "vd": 1.62374
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 2597588,
+                    "vd": 2.01361
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 1568155,
+                    "vd": 1.83726
+                },
+                "a": null,
+                "cd": "1",
+                "no": 103,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1041350400004,
+                "privilege": {
+                    "id": 5269320,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 320000,
+                    "dl": 320000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误.惊丑(锦地花)",
+                "id": 131345,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 4057,
+                        "name": "刘异龙",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 17,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 12730,
+                    "name": "中国昆曲音像库：刘异龙唱腔精粹",
+                    "picUrl": "https://p1.music.126.net/w6pq0dWhKEm8cWRfB6oRAg==/116548232560538.jpg",
+                    "tns": [],
+                    "pic": 116548232560538
+                },
+                "dt": 100693,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 4032284,
+                    "vd": 1.48174
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 2016677,
+                    "vd": 1.80849
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 1210433,
+                    "vd": 1.6327
+                },
+                "a": null,
+                "cd": "1",
+                "no": 20,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 22039,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1105113600000,
+                "privilege": {
+                    "id": 131345,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 999000,
+                    "dl": 999000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误.前亲(福马郎)(红芍药)(会阳河)(红绣鞋)",
+                "id": 131347,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 4057,
+                        "name": "刘异龙",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 17,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 12730,
+                    "name": "中国昆曲音像库：刘异龙唱腔精粹",
+                    "picUrl": "https://p1.music.126.net/w6pq0dWhKEm8cWRfB6oRAg==/116548232560538.jpg",
+                    "tns": [],
+                    "pic": 116548232560538
+                },
+                "dt": 198333,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 7938143,
+                    "vd": 1.53947
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 3969621,
+                    "vd": 1.94967
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 2382212,
+                    "vd": 1.69466
+                },
+                "a": null,
+                "cd": "1",
+                "no": 22,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 22039,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1105113600000,
+                "privilege": {
+                    "id": 131347,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 999000,
+                    "dl": 999000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "《风筝误.前亲》 福马郎 红芍药 会阳河 红绣鞋",
+                "id": 5269321,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 122455,
+                        "name": "群星",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 665,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 512903,
+                    "name": "中国昆曲音像库",
+                    "picUrl": "https://p1.music.126.net/bt1Q2IapwH3vkepqW-LFdw==/1781208837010261.jpg",
+                    "tns": [],
+                    "pic": 1781208837010261
+                },
+                "dt": 198478,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 7958975,
+                    "vd": 1.57022
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 3991498,
+                    "vd": 1.89016
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 2404507,
+                    "vd": 2.01562
+                },
+                "a": null,
+                "cd": "1",
+                "no": 104,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1041350400004,
+                "privilege": {
+                    "id": 5269321,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 320000,
+                    "dl": 320000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "《风筝误.惊丑》 剔银灯",
+                "id": 5269318,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 122455,
+                        "name": "群星",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 665,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 512903,
+                    "name": "中国昆曲音像库",
+                    "picUrl": "https://p1.music.126.net/bt1Q2IapwH3vkepqW-LFdw==/1781208837010261.jpg",
+                    "tns": [],
+                    "pic": 1781208837010261
+                },
+                "dt": 121025,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 4863963,
+                    "vd": 1.41504
+                },
+                "m": {
+                    "br": 160000,
+                    "fid": 0,
+                    "size": 2443980,
+                    "vd": 1.69724
+                },
+                "l": {
+                    "br": 96000,
+                    "fid": 0,
+                    "size": 1475987,
+                    "vd": 1.42971
+                },
+                "a": null,
+                "cd": "1",
+                "no": 101,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1041350400004,
+                "privilege": {
+                    "id": 5269318,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 320000,
+                    "dl": 320000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误葫芦丝（Cover：群星）",
+                "id": 1363207926,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 12280693,
+                        "name": "董杰",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": "",
+                "fee": 0,
+                "v": 2,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 78854822,
+                    "name": "夏天的气息",
+                    "picUrl": "https://p1.music.126.net/cr2yqE8ukrf1eQZr63GlzQ==/109951164041132434.jpg",
+                    "tns": [],
+                    "pic_str": "109951164041132434",
+                    "pic": 109951164041132434
+                },
+                "dt": 238032,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9522199,
+                    "vd": -2.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5713337,
+                    "vd": 3224.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3808906,
+                    "vd": 4300.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 4,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 0,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 0,
+                "privilege": {
+                    "id": 1363207926,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": 0,
+                    "pl": 320000,
+                    "dl": 320000,
+                    "sp": 7,
+                    "cp": 1,
+                    "subp": 1,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 999000,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误（Cover 刘珂矣）",
+                "id": 450492740,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 12084330,
+                        "name": "风小筝",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 20.0,
+                "st": 0,
+                "rt": null,
+                "fee": 0,
+                "v": 52,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 35099060,
+                    "name": "风小筝高音质翻唱集",
+                    "picUrl": "https://p1.music.126.net/N2ErECRE8P8H8xkTBaSIxQ==/109951162833026324.jpg",
+                    "tns": [],
+                    "pic_str": "109951162833026324",
+                    "pic": 109951162833026324
+                },
+                "dt": 237684,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9509660,
+                    "vd": -1300.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5705813,
+                    "vd": -2.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3803890,
+                    "vd": -2.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 2,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1483009407858,
+                "privilege": {
+                    "id": 450492740,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": -200,
+                    "pl": 0,
+                    "dl": 0,
+                    "sp": 0,
+                    "cp": 0,
+                    "subp": 0,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 0,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "风筝误",
+                "id": 535625052,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 13155548,
+                        "name": "春晓萨克斯",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": null,
+                "fee": 0,
+                "v": 309,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 37435973,
+                    "name": "春晓萨克斯",
+                    "picUrl": "https://p1.music.126.net/-3qpvFUE_Id-7K2aFx-j1g==/109951163128995479.jpg",
+                    "tns": [],
+                    "pic_str": "109951163128995479",
+                    "pic": 109951163128995479
+                },
+                "dt": 216819,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 8674787,
+                    "vd": 4958.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5204889,
+                    "vd": 7186.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3469941,
+                    "vd": 7330.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 9,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1517567422902,
+                "privilege": {
+                    "id": 535625052,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": -200,
+                    "pl": 0,
+                    "dl": 0,
+                    "sp": 0,
+                    "cp": 0,
+                    "subp": 0,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 0,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "刘珂矣 - 风筝误",
+                "id": 519426966,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 12867563,
+                        "name": "司契",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 20.0,
+                "st": 0,
+                "rt": null,
+                "fee": 0,
+                "v": 10,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 36809879,
+                    "name": "风筝误",
+                    "picUrl": "https://p1.music.126.net/h6RHPtjqZc73UHDYuzfZ1w==/109951163064662318.jpg",
+                    "tns": [],
+                    "pic_str": "109951163064662318",
+                    "pic": 109951163064662318
+                },
+                "dt": 238945,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9568174,
+                    "vd": -18100.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5740922,
+                    "vd": -15500.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3827296,
+                    "vd": -13900.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 1,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 0,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1510917892417,
+                "privilege": {
+                    "id": 519426966,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": -200,
+                    "pl": 0,
+                    "dl": 0,
+                    "sp": 0,
+                    "cp": 0,
+                    "subp": 0,
+                    "cs": false,
+                    "maxbr": 320000,
+                    "fl": 0,
+                    "toast": false,
+                    "flag": 128
+                }
+            },
+            {
+                "name": "刘珂矣-风筝误（CL非洲鼓 Remix）",
+                "id": 548592063,
+                "pst": 0,
+                "t": 0,
+                "ar": [
+                    {
+                        "id": 13698255,
+                        "name": "CL非洲鼓",
+                        "tns": [],
+                        "alias": []
+                    }
+                ],
+                "alia": [],
+                "pop": 5.0,
+                "st": 0,
+                "rt": null,
+                "fee": 0,
+                "v": 59,
+                "crbt": null,
+                "cf": "",
+                "al": {
+                    "id": 38039582,
+                    "name": "最好的我们",
+                    "picUrl": "https://p1.music.126.net/b05yP34EScBOentB6jU3DQ==/109951163212617940.jpg",
+                    "tns": [],
+                    "pic_str": "109951163212617940",
+                    "pic": 109951163212617940
+                },
+                "dt": 238027,
+                "h": {
+                    "br": 320000,
+                    "fid": 0,
+                    "size": 9523244,
+                    "vd": 28324.0
+                },
+                "m": {
+                    "br": 192000,
+                    "fid": 0,
+                    "size": 5713964,
+                    "vd": 30504.0
+                },
+                "l": {
+                    "br": 128000,
+                    "fid": 0,
+                    "size": 3809324,
+                    "vd": 33177.0
+                },
+                "a": null,
+                "cd": "01",
+                "no": 1,
+                "rtUrl": null,
+                "ftype": 0,
+                "rtUrls": [],
+                "djId": 0,
+                "copyright": 2,
+                "s_id": 0,
+                "mark": 0,
+                "mst": 9,
+                "cp": 0,
+                "mv": 0,
+                "rtype": 0,
+                "rurl": null,
+                "publishTime": 1522296240301,
+                "privilege": {
+                    "id": 548592063,
+                    "fee": 0,
+                    "payed": 0,
+                    "st": -200,
+                    "pl": 0,
+                    "dl": 0,
+                    "sp": 0,
+                    "cp": 0,
+                    "subp": 0,
+                    "cs": false,
+                    "maxbr": 999000,
+                    "fl": 0,
+                    "toast": false,
+                    "flag": 128
+                }
+            }
+        ],
+        "songCount": 19
+    },
+    "code": 200
+}

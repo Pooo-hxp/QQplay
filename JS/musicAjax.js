@@ -1,7 +1,7 @@
 $(function () {
         $("ol").remove(".middler_left_music_list_ol");
         $.ajax({
-            url: "http://www.xiaoxina.cn/api.php?num=10&s=恋爱",
+            url: "http://www.xiaoxina.cn/api.php?num=15&s=恋爱",
             dataType: "json",
             type: "GET",
             async: true,

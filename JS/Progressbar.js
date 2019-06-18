@@ -133,17 +133,17 @@ $(function () {
         
             function requestinfo(select,flag) {
               $.ajax({
-                url: "http://www.xiaoxina.cn/api.php?num=10&s=" + select, //num指期望搜寻返回歌曲数；
+                url: "http://www.xiaoxina.cn/api.php?num=15&s=" + select,
                 dataType: "json",
                 type: "GET",
                 async: true,
                 success: function (data) {
                   for (var i = 0; i < data.length; i++) {
-                    var picLink = data[i].picLink;//图片地址
-                    var lyric = data[i].lyric;//歌词信息
-                    var play = data[i].url;//播放地址
-                    var songname = data[i].name;//歌曲名
-                    var singer = data[i].singer;//歌手名
+                    var picLink = data[i].picLink;
+                    var lyric = data[i].lyric;
+                    var play = data[i].url;
+                    var songname = data[i].name;
+                    var singer = data[i].singer;
                     picLinks.push(picLink);
                     lyrics.push(lyric);
                     plays.push(play);
