@@ -69,7 +69,7 @@ $(function () {
         var txt = $(".text").val();
         $("ol").remove(".middler_left_music_list_ol");
         $.ajax({
-            url: "http://www.xiaoxina.cn/api.php?num=10&s=" + txt,
+            url: "http://www.xiaoxina.cn/api.php?s=" + txt,
             dataType: "json",
             type: "GET",
             async: true,
