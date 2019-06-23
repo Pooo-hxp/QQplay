@@ -45,7 +45,7 @@ $(function () {
             $(".music_for").addClass("music_for1").removeClass("music_for4");
         }
     })
-        //---歌曲倒计时方法-----------------------
+    //---歌曲倒计时方法-----------------------
     function time(newtime) {
         console.log("这是倒计时的时长"+newtime);
         var minutes = Math.floor(newtime / 60);
@@ -82,6 +82,7 @@ $(function () {
         if ($(".music_stop").attr("class").indexOf("music_stop2") != -1) {
             $('.music_bofang_info_zhong').stop();   //----暂停时停止进度条-------
             $('.music_bofang_info_radio').stop();
+            $(".music_ico1").removeClass('music_ico11');
             $(".music_stop").removeClass("music_stop2");
             audio.pause();// 暂停播放
         } else {
@@ -96,11 +97,6 @@ $(function () {
     //--------------利用事件委托，解决JS在新生节点中不生效------------
     $(".middler_left_music_list").delegate(".music_ico1", "click", function () {
        
-        var picLinks = new Array();//存放封面图地址
-        var lyrics = new Array(); //存放歌词信息    
-        var plays = new Array();//存放播放地址
-        var songnames = new Array();//存放歌曲名
-        var singers = new Array();//存放歌手名
         var $item = $(this).parents().parents().parents().siblings();
         //--this指向播放按钮,它的父亲是div,它的爷爷是li，他的曾祖父是ol；
         if ($(this).attr("class").indexOf("music_ico11") != -1) {//点击的时候是播放状态
@@ -110,7 +106,6 @@ $(function () {
             $(".music_stop").removeClass("music_stop2");
             audio.pause();// 暂停播放
 
-
             console.log("暂停播放");
             $(this).removeClass("music_ico11");//去除播放图标 
             $(".end").removeClass("str");//去除所有歌曲播放动态图标
@@ -118,71 +113,37 @@ $(function () {
             $item.find("span").removeClass("tran");//此样式隐藏序号
         }
         else {//点击的时候是暂停状态
+            console.log("开始")
             $(".music_stop").addClass("music_stop2");
-
+            var info=$(this).attr("title")
+            info = info.split(",") //分割字符串为数组
+            console.log(info[2])
             var audio=document.getElementById("audio");
-            audio.play();// 这个就是播放 
             var newtime=audio.duration; //当前播放歌曲时长
-             probar(newtime); //--播放的时候调用进度条方法----------
-            console.log("开始播放");
             document.getElementById("lrc_content").innerHTML = "";
             $(".lrc_content").remove(".songwriter");//清空之前播放的歌词信息
-            var select = $(".text").val();//当前搜索的歌曲关键字
-            var flag = $(this).parents().parents().parents().index();//当前点击播放的歌曲序号
-            requestinfo(select,flag);
-        
-            function requestinfo(select,flag) {
-              $.ajax({
-                url: "http://www.xiaoxina.cn/api.php?num=15&s=" + select,
-                dataType: "json",
-                type: "GET",
-                async: true,
-                success: function (data) {
-                  for (var i = 0; i < data.length; i++) {
-                    var picLink = data[i].picLink;
-                    var lyric = data[i].lyric;
-                    var play = data[i].url;
-                    var songname = data[i].name;
-                    var singer = data[i].singer;
-                    picLinks.push(picLink);
-                    lyrics.push(lyric);
-                    plays.push(play);
-                    songnames.push(songname);
-                    singers.push(singer);
-                  }
-                  // console.log("图片地址:"+picLinks);
-                  // console.log("歌词地址:"+lyrics);
-                  // console.log("播放地址:"+plays); 
-                  // console.log("歌曲名:"+songnames);
-                   console.log("歌手名:"+singers);
-          
-                  $(".songname").html(songnames[flag]);
-                  $(".artistname").html(singers[flag]);
-                  document.getElementById("audio").src = plays[flag];
-                  if (picLinks[flag] == undefined) {
-                    $(".middler_right_top img").attr('src', '../音乐播放器/img/foo.jpg');
-                  } else {
-                    $(".middler_right_top img").attr('src', picLinks[flag]);
-                    　$(".maskingimg").css("background-image", "url("+picLinks[flag]+")");
-                  }
-                    var text = lyrics[flag]; //当前播放歌曲的歌词
+            $(".songname").html(info[0]);
+            $(".artistname").html(info[1]);
+            $(".middler_right_top img").attr('src', info[2]);
+            $(".maskingimg").css("background-image", "url("+info[2]+")");
+            var text = info[3]; //当前播放歌曲的歌词  
+            document.getElementById("audio").src =info[4];
+                    probar(newtime); //--播放的时候调用进度条方法----------
                     createLrc(text);
+                    audio.play();// 这个就是播放 
+                    var info=$(this).attr("title")
+                    info = info.split(",") //分割字符串为数组
+                    $(".music_ico1").removeClass("music_ico11");//去除所有歌曲的播放图标
+                    $(this).addClass("music_ico11");//给当前播放歌曲增加播放图标
+                    $(this).parents().parents().find(".end").toggleClass("str");//展示动态播放图标
+                    $item.find(".end").removeClass("str");//---关闭同类动态播放图标-------
+                    $(this).parents().parents(".music_sing").find("span").toggleClass("tran"); //---------切换歌曲时，隐藏当前播放歌曲前的序号，且让之前播放的歌曲序号显示
+                    $item.find("span").removeClass("tran");
+                    $(".music_bofang_info_name").html(info[0] + "-" + info[1]);//歌曲+歌手拼接，在底端展示
                 }
+               
               })
-            }
-            $item.find(".music_ico1").removeClass("music_ico11");//去除所有歌曲的播放图标
-            $(this).toggleClass("music_ico11");//给当前播放歌曲增加播放图标
-            $(this).parents().parents().find(".end").toggleClass("str");//展示动态播放图标
-            $item.find(".end").removeClass("str");//---关闭同类动态播放图标-------
-            $(this).parents().parents(".music_sing").find("span").toggleClass("tran"); //---------切换歌曲时，隐藏当前播放歌曲前的序号，且让之前播放的歌曲序号显示
-            $item.find("span").removeClass("tran");
-            $(".music_stop").addClass("music_stop2");//给底端按钮增加播放图标
-            var newsongname = $(this).parent().parent().parent().find(".music_sing").text();//获得当前播放的歌曲名
-            newsongname = newsongname.replace(/[0-9]/ig, "");//---正则表达，去除歌曲前的序号--
-            var newsingername = $(this).parent().parent().parent().find(".music_singer").text()//获得当前播放歌曲的歌手名
-            $(".music_bofang_info_name").html(newsongname + "-" + newsingername);//歌曲+歌手拼接，在底端展示
-        }
-    })
+         
     function createLrc(text) {
         var medisArray = new Array(); //存放当前播放歌曲的拆分歌词;
           console.log("歌词解析：")
@@ -209,13 +170,9 @@ $(function () {
         }
         };
 
-
-
     $(".middler_left_music_list").delegate(".middler_left_music_list_ol", "mouseover", function () {
         $(".music_sing_div").eq($(this).index()).css("display", "block");
     })
-
-
 
 
     $(".middler_left_music_list").delegate(".middler_left_music_list_ol", "mouseleave", function () {
