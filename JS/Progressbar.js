@@ -1,27 +1,26 @@
 $(function () {
+   //--歌曲进度条从封装好的函数中调用---
+    var $progressBar=$(".music_bofang_info_wai")
+    var $progressLine=$(".music_bofang_info_zhong")
+    var $progressDot=$(".music_bofang_info_radio")
+    var progress=Progress($progressBar,$progressLine, $progressDot)
+    progress.progressClick();
+    progress.progressMove();
 
-    audio.addEventListener( 'timeupdate', function() {
-        console.log("播放时间正在变化");
-        //audio.volume; //默认为1，也就是最大音量，通过他我们可以设置播放器的音量大小
-    } ); //播放时间变化就会触发
-
-    // var newtime = "03:42";
-    // newtime = newtime.replace(/[^1-9]/ig, "");
-    // //正则过滤歌曲时长，去掉非数字。3：15为315；
-    // newtime = newtime.substring(0, 1) * 60 + newtime.substring(1, 5) * 1;
-    // function CountDown() {
-    //     if (newtime >= 0) {
-    //         minutes = Math.floor(newtime / 60);
-    //         seconds = Math.floor(newtime % 60);
-    //         msg = minutes + "：" + seconds;
-    //         document.getElementById("music_bofang_info_time").innerHTML = msg;
-    //         newtime--;
-    //     }
-    // }
-    //var t = setInterval(CountDown(), 1000);
-
-
-    //--------底端模式调整，功能未写-------------------------------
+   //--音量条从封装好的函数中调用----
+    var $voiceBar=$(".music_voice_ico_wai")
+    var $voiceLine=$(".music_voice_ico_zhong")
+    var $voiceDot=$(".music_voice_ico_radio")
+    var voiceProgress=Progress($voiceBar,$voiceLine, $voiceDot)
+    voiceProgress.progressClick(function(){});
+    progress.progressMove(function(){});
+    document.getElementsByClassName("music_voice_ico_wai")[0].addEventListener('click',fu);
+    function fu(){
+        let lang=$(".music_voice_ico_zhong").width();
+        document.getElementById("audio").volume=lang/70;
+    }
+    
+    //--------底端模式调整-------------------------------
     $(".list_all").click(function () {
         $("ol").remove(".middler_left_music_list_ol");//清空歌曲列表
     })
@@ -30,6 +29,29 @@ $(function () {
     });
     $(".music_only").click(function () {
         $(this).toggleClass("music_only2");//纯净模式
+        if($(this).attr("class").indexOf("music_only2")!=-1){
+          musiconlystar();
+        }
+        else{
+            musiconlyend();
+        }
+    }) 
+    $(".music_voice_ico").click(function () {
+        //图标切换
+        $(this).toggleClass("music_voice_ico2");//声音模式切换
+        //声音切换
+        if ($(this).attr("class").indexOf("music_voice_ico2") != -1) {
+            //变为没有声音  volume表当前播放歌曲音量大小范围为0~1；
+        document.getElementById("audio").volume=0;
+        $(".music_voice_ico_zhong").css('width','0px');
+        $(".music_voice_ico_radio").css('left','0px');
+        }
+        else{
+            //变为有声音   
+        document.getElementById("audio").volume=1;
+        $(".music_voice_ico_zhong").css('width','70px');
+        $(".music_voice_ico_radio").css('left','70px');
+        }
     })
     $(".music_for").click(function () {
         if ($(".music_for").attr("class").indexOf("music_for1") != -1) {
@@ -45,6 +67,15 @@ $(function () {
             $(".music_for").addClass("music_for1").removeClass("music_for4");
         }
     })
+    //----音乐纯净模式方法-------------
+    /*开启*/ function musiconlystar(){
+        $('.middler').css('display','none');
+        $('.middler2').css('display','block');
+    }
+    /*关闭*/ function musiconlyend(){
+        $('.middler').css('display','block');
+        $('.middler2').css('display','none');
+    }
     //---歌曲倒计时方法-----------------------
     function time(newtime) {
         console.log("这是倒计时的时长"+newtime);
@@ -68,12 +99,13 @@ $(function () {
      //-------------定义动态进度条方法-----------------------------
     function probar(newtime) {
         console.log("这是进度条的时长"+newtime);
+        var tm=parseInt(newtime)*1000;
         $('.music_bofang_info_zhong').animate({
             width: $(".music_bofang_info_wai").width(),
-        }, 180000);
+        }, tm);
         $('.music_bofang_info_radio').animate({
             left: $(".music_bofang_info_wai").width(),
-        }, 180000);
+        }, tm);
     }
 
     function check() {
@@ -88,8 +120,8 @@ $(function () {
         } else {
             $(".music_stop").addClass("music_stop2");
             audio.play();// 这个就是播放 
-                probar(newtime); //--播放的时候调用进度条方法----------
-               // time(newtime);  //---播放的时候调用倒计时方法-----------
+            probar(newtime); //--播放的时候调用进度条方法----------
+            // time(newtime);  //---播放的时候调用倒计时方法-----------
             } 
         }
     $(".music_stop").click(check);//---底部按钮调用检查函数-----
@@ -113,6 +145,7 @@ $(function () {
             $item.find("span").removeClass("tran");//此样式隐藏序号
         }
         else {//点击的时候是暂停状态
+            check();
             console.log("开始")
             $(".music_stop").addClass("music_stop2");
             var info=$(this).attr("title")

@@ -6,6 +6,7 @@ $(function () {
             type: "GET",
             async: true,
             success: function (data) {
+                console.log(data);
                 for (var i = 0; i < data.length; i++) {
                     var info=new Array(5);
                     info[0]=data[i].name;

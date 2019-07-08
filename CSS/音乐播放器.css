@@ -56,6 +56,11 @@ ol li {
     width: 1200px;
     height: 700px;
 }
+.middler2 {
+    margin: 0 auto;/* 222222  */
+    width: 1200px;
+    height: 700px;
+}
 
 .middler_left {
     float: left;
@@ -213,12 +218,18 @@ ol li {
 .middler_left_music_list {
     width: 100%;
     height: 600px;
+    user-select: none;
 }
 
 .middler_right {
     float: right;
     width: 400px;
     height: 100%;
+}
+.middler_right2 {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
 }
 
 .middler_right_top {
@@ -229,7 +240,6 @@ ol li {
     background-position-y: 5px;
 }
 
-
 .middler_right_top img {
     background-size: 100%;
     position: relative;
@@ -239,9 +249,35 @@ ol li {
     height: 186px;
 }
 
+.middler_right_top2 {
+    height: 200px;
+    width: 400px;
+    background: url(../img/qq_background.png) 0 0 no-repeat;
+    background-position-x: 200px;
+    background-position-y: 8px;
+}
+.middler_right_top2 img {
+    text-align: center;
+    background-size: 100%;
+    position: relative;
+    top: 10px;
+    left: 192px;
+    width: 186px;
+    height: 186px;
+}
+
 .middler_right_bottom {
     width: 400px;
     height: 150px;
+    user-select: none;
+    /*文本不可被选中*/
+}
+.middler_right_bottom2{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    user-select: none;
+    /*文本不可被选中*/
 }
 
 .middler_right_music {
@@ -262,6 +298,11 @@ ol li {
 }
 
 .word_ofsong {
+    width: 100%;
+    height: 300px;
+}
+.word_ofsong2 {
+    font-size: 25px;
     width: 100%;
     height: 300px;
 }
@@ -286,6 +327,8 @@ ol li {
     width: 1200px;
     height: 120px;
     margin-top: 20px;
+    user-select: none;
+
 }
 
 .bottom a {
@@ -439,6 +482,11 @@ ol li {
     height: 21px;
     background-position: 0 -144px;
 }
+.bottom .music_voice_ico2 {
+    width: 26px;
+    height: 21px;
+    background-position: 0 -182px;
+}
 
 .bottom .music_voice_ico_wai {
     position: relative;
@@ -450,7 +498,7 @@ ol li {
 }
 
 .bottom .music_voice_ico_zhong {
-    width: 20px;
+    width: 70px;
     height: 100%;
     background: rgba(255, 254, 254, 1);
 }
@@ -461,7 +509,7 @@ ol li {
     border-radius: 50%;
     position: relative;
     top: -6px;
-    left: 20px;
+    left: 70px;
     background: rgba(255, 254, 254, 1);
 }
 

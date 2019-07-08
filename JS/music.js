@@ -6,7 +6,7 @@ $(function () {
         cursorwidth: "10px", //像素光标的宽度 
         cursorborder: "0", //     游标边框css定义 
         cursorborderradius: "5px",//以像素为光标边界半径 
-        autohidemode: false //是否隐藏滚动条 
+        autohidemode: true //是否隐藏滚动条 
     });
     $('.lrc_content').niceScroll({
         cursorcolor: "#FFF",//#CC0071 光标颜色 
@@ -15,7 +15,7 @@ $(function () {
         cursorwidth: "10px", //像素光标的宽度 
         cursorborder: "0", //     游标边框css定义 
         cursorborderradius: "5px",//以像素为光标边界半径 
-        autohidemode: true //是否隐藏滚动条 
+        autohidemode: false //是否隐藏滚动条 
     });
 
 })
