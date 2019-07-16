@@ -97,7 +97,9 @@ $(function () {
    // setInterval(star, 1000);
     }
      //-------------定义动态进度条方法-----------------------------
-    function probar(newtime) {
+    function probar() {
+        var audio = document.getElementById("audio");
+        var newtime=audio.duration; //当前播放歌曲时长
         console.log("这是进度条的时长"+newtime);
         var tm=parseInt(newtime)*1000;
         $('.music_bofang_info_zhong').animate({
@@ -109,8 +111,7 @@ $(function () {
     }
 
     function check() {
-        var audio = document.getElementById("audio");
-        var newtime=audio.duration; //当前播放歌曲时长
+        var audio = document.getElementById("audio");     
         if ($(".music_stop").attr("class").indexOf("music_stop2") != -1) {
             $('.music_bofang_info_zhong').stop();   //----暂停时停止进度条-------
             $('.music_bofang_info_radio').stop();
@@ -118,10 +119,11 @@ $(function () {
             $(".music_stop").removeClass("music_stop2");
             audio.pause();// 暂停播放
         } else {
+            $(".tran").find(".music_ico1").addClass(".music_ico11");
             $(".music_stop").addClass("music_stop2");
-            audio.play();// 这个就是播放 
-            probar(newtime); //--播放的时候调用进度条方法----------
-            // time(newtime);  //---播放的时候调用倒计时方法-----------
+            audio.play();// 这个就是播放            
+            probar(); //--播放的时候调用进度条方法----------
+            //time(newtime);  //---播放的时候调用倒计时方法-----------
             } 
         }
     $(".music_stop").click(check);//---底部按钮调用检查函数-----
@@ -152,7 +154,7 @@ $(function () {
             info = info.split(",") //分割字符串为数组
             console.log(info[2])
             var audio=document.getElementById("audio");
-            var newtime=audio.duration; //当前播放歌曲时长
+            
             document.getElementById("lrc_content").innerHTML = "";
             $(".lrc_content").remove(".songwriter");//清空之前播放的歌词信息
             $(".songname").html(info[0]);
@@ -164,6 +166,7 @@ $(function () {
                     probar(newtime); //--播放的时候调用进度条方法----------
                     createLrc(text);
                     audio.play();// 这个就是播放 
+                    var newtime=audio.duration; //当前播放歌曲时长
                     var info=$(this).attr("title")
                     info = info.split(",") //分割字符串为数组
                     $(".music_ico1").removeClass("music_ico11");//去除所有歌曲的播放图标

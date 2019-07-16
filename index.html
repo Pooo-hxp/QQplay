@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/音乐播放器.css">
+    <link rel="stylesheet" href="CSS/music.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="jquery库文件/jquery-3.2.1.js"></script>
+	<script src="jquery库文件/fakeAjax.js"></script>
     <script src="JS/jquery.nicescroll.js"></script>
     <title>QQ播放器</title>
 </head>
@@ -17,15 +18,15 @@
             <img src="img/QQlogo.png">
             <ol>
                 <li class="header_li">
-                    <input class="text" type="text" value="恋爱" style="width:100px">
+                    <input class="text" type="text" value="我" style="width:100px">
                     <button class="query">搜索歌曲</button>
                 </li>
-                <li class="header_li">登录</li>
-                <li class="header_li">设置</li>
+                <li class="header_li">理想</li>
+                <li class="header_li">欢迎你！</li>
             </ol>
         </div>
         <div>
-           <audio  id="audio"class="audio" preload="auto" autoplay="autoplay"> <!-- controls -->
+           <audio  id="audio"class="audio" preload="auto" autoplay="autoplay" > <!-- controls -->
                 浏览器不支持h5音乐标签
             </audio>
         </div>
@@ -141,7 +142,7 @@
                         无
                     </span>
                     <span class="music_bofang_info_time" id="music_bofang_info_time">
-                        123
+                        3:25
                     </span>
                 </div>
                 <div class="music_bofang_info_bar">

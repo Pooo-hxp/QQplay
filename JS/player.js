@@ -1,4 +1,4 @@
-//----------面向对象写法----Progressbar.js为js原生写法------
+//----------面向对象写法----Progressbar为js原生写法------
 (function(window){
     function Progress($progressBar,$progressLine, $progressDot){
         return new Progress.prototype.init($progressBar,$progressLine, $progressDot);
@@ -10,7 +10,7 @@
             this.$progressLine=$progressLine;
             this.$progressDot=$progressDot;
         },
-        //音乐播放器进度条点击效果
+        //播放器进度条点击效果
         progressClick:function(){
             var $this=this;//this指向Progress;
             //背景点击监听
