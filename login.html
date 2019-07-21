@@ -6,7 +6,6 @@
     <title></title>
     <meta charset="utf-8" />
     <title>用户登录</title>
-    <link rel="stylesheet" href="css/style.css" />
     <script src="JS/bootstrap.min.js"></script>
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <script src="jquery库文件/jquery-3.2.1.js"></script>
@@ -44,20 +43,6 @@
             height: 10px;
         }
     </style>
-    <script type="text/javascript">
-        $(function () {
-            $('#btn').click(function () {
-                $.ajax({
-                    data:'post',
-                    url:'',
-                    dataType:'JSON',
-                    success:function(data){
-                        console.log(data)
-                    }
-                })
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -68,12 +53,12 @@
                     <h2>请登录</h2>
                 </div>
                 <div class="col-lg-10">
-                    <input type="text" class="form-control" name="username" placeholder="请输入账户名" required autofocus />
+                    <input type="text" class="form-control username" name="username" placeholder="请输入账户名" required autofocus />
                 </div>
                 <div class="col-lg-10">
                 </div>
                 <div class="col-lg-10">
-                    <input type="password" class="form-control" name="password" placeholder="请输入密码" required
+                    <input type="password" class="form-control password" name="password" placeholder="请输入密码" required
                         autofocus />
                 </div>
                 <div class="col-lg-10">
@@ -81,12 +66,70 @@
                 <div class="col-lg-10">
                 </div>
                 <div class="col-lg-10">
-                    <button type="button" id="btn" class="btn btn-success col-lg-12">登录</button>
-                    <button type="button" id="btn" class="btn btn-success col-lg-12">注册</button>
+                    <button type="button" id="btn1" class="btn btn-success col-lg-12">登录</button>
+                    <button type="button" id="btn2" class="btn btn-success col-lg-12">注册</button>
                 </div>
             </div>
         </div>
     </form>
 </body>
-
+<script>
+    $('#btn1').click(function(){
+			console.log('登陆账号:'+$(".username").val());
+			console.log('登录密码:'+$(".password").val());
+		$.ajax({
+			type:"POST",
+			url:"localhost:8085/login.php",
+			dataType:'json',
+			data:{
+				myUname:$(".username").val(),
+				myUpass:$(".password").val()
+			},
+			success:function(res){
+				console.log(res);
+				console.log("请求登录成功");
+				console.log(res.infoCode);
+				if (res.infoCode==0) {
+					alert("用户账号密码匹配成功");
+				} else if(res.infoCode==1){
+					alert("账号匹配,但密码错误");
+				}else if(res.infoCode==2){
+					alert("账号不存在");
+				}else{
+					alert("连接失败,请检查网络")
+				}
+			},
+			error:function(){
+				console.log("请求登录失败");
+			}
+		});
+		});
+$('#btn2').click(function(){
+		console.log('注册账号:'+$(".username").val());
+		console.log('注册密码:'+$(".password").val());
+		$.ajax({
+			type:"POST",
+			url:"localhost:8085/login2.php",
+			dataType:'json',
+			data:{
+				myUname:$(".username").val(),
+				myUpass:$(".password").val()
+			},
+			success:function(res){
+				console.log("请求注册成功");
+				console.log(res.infoCode);
+				if (res.infoCode==0) {
+					alert("账号已存在,请换个账号试试");
+				} else if(res.infoCode==1){
+					alert("注册成功，请登录");
+				}else{
+					alert("连接失败,请检查网络")
+				}
+			},
+			error:function(){
+				console.log("请求注册失败");
+			}
+		});
+		});
+</script>
 </html>

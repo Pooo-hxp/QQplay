@@ -1,20 +1,20 @@
 $(function () {
         $("ol").remove(".middler_left_music_list_ol");
 		fakeAjax({
-            url: "https://api.apiopen.top/searchMusic?name=我",
+            url: "https://api.apiopen.top/searchMusic?num=20&name=我",
             dataType: "json",
             type: "GET",
             async: true,
             success: function (data) {
                 data=data.result;
-                console.log(data[1].pic);
+                console.log(data);
                 for (var i = 0; i < data.length; i++) {
                     var info=new Array(5);
-                    info[0]=data[i].title;
-                    info[1]=data[i].author;
-                    info[2]=data[i].pic;
-                    info[3]=data[i].lrc;
-                    info[4]=data[i].url;
+                    info[0]=data[i].title;  /*歌名*/
+                    info[1]=data[i].author; /*歌手*/
+                    info[2]=data[i].pic;    /*歌曲图片地址*/
+                    info[3]=data[i].lrc;    /*歌词地址*/
+                    info[4]=data[i].url;    /*歌曲资源地址*/
 					 $(".middler_left_music_list").append(`
 					     <ol class="middler_left_music_list_ol ">
                             <li class="music_li music_check"><input class="checkbox" type="checkbox">
@@ -50,11 +50,11 @@ $(function () {
                 console.log(data[1].pic);
                 for (var i = 0; i < data.length; i++) {
                     var info=new Array(5);
-                    info[0]=data[i].title;
-                    info[1]=data[i].author;
-                    info[2]=data[i].pic;
-                    info[3]=data[i].lrc;
-                    info[4]=data[i].url;
+                    info[0]=data[i].title;  /*歌名*/
+                    info[1]=data[i].author; /*歌手*/
+                    info[2]=data[i].pic;    /*歌曲图片地址*/
+                    info[3]=data[i].lrc;    /*歌词地址*/
+                    info[4]=data[i].url;    /*歌曲资源地址*/
 					 $(".middler_left_music_list").append(`
 					     <ol class="middler_left_music_list_ol ">
                             <li class="music_li music_check"><input class="checkbox" type="checkbox">
