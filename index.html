@@ -21,9 +21,9 @@
                     <input class="text" type="text" value="我" style="width:100px">
                     <button class="query">搜索歌曲</button>
                 </li>
-                <li class="header_li">土豆哥</li>
+                <li class="header_li user">我是土豆哥</li>
                 <li class="header_li">欢迎你！</li>
-                <li class="header_li">登录</li>
+                <li class="header_li login"><a href="login.html">登录</a></li>
             </ol>
         </div>
         <div>
@@ -36,7 +36,7 @@
                 <div class="middler_left_header">
                     <ol>
                         <li class="list">
-                            <div><span class="list_shoucang">收藏</span></div>
+                            <div><span class="list_collect">收藏</span></div>
                         </li>
                         <li class="list">
                             <div><span class="list_add">添加到</span></div>
@@ -180,6 +180,15 @@
     </div>
     <div class="maskingimg" id="maskingimg"></div>
     <div class="maskingcolor"></div>
+  <script>
+    /*获取登录信息*/
+  var obj = JSON.parse(localStorage.getItem('obj')); 
+    if(obj!=null){
+      $(".login").html('<a href="login.html">'+"切换账号"+'</a>');
+      $(".user").html(obj.user);
+    }
+    console.log(obj);
+  </script>
 </body>
 <script src="JS/music.js"></script>
 <script src="JS/musicAjax.js"></script>

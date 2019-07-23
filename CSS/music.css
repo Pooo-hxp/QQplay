@@ -186,6 +186,10 @@ ol li {
     background-position-y: 268px;
 }
 
+.music_ico21{
+    background-position-x: 162px;
+}
+
 .music_ico2:hover {
     background-position-x: 82px;
 }
@@ -206,7 +210,7 @@ ol li {
 }
 
 .music_singer {
-    width: 100px;
+    width: 150px;
     cursor: pointer;
     opacity: 0.6;    
 }

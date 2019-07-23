@@ -26,6 +26,7 @@ $(function () {
     })
     $(".music_like").click(function () {
         $(this).toggleClass("music_like2");//切换喜欢
+      like();
     });
    /*---------音乐纯净模式方法---------*/
     $(".music_only").click(function () {
@@ -153,6 +154,8 @@ $(function () {
             $(this).parents().parents(".music_sing").find("span").toggleClass("tran"); 
             $item.find("span").removeClass("tran");//让歌曲前序号重新展示出来
             clearInterval(str);//清除歌曲倒计时定时器
+            $('.music_bofang_info_zhong').stop(true);
+   		    $('.music_bofang_info_radio').stop(true);
         }
         else {//点击的时候是暂停状态
             check();
