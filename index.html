@@ -184,7 +184,7 @@
     /*获取登录信息*/
   var obj = JSON.parse(localStorage.getItem('obj')); 
     if(obj!=null){
-      $(".login").html('<a href="login.html">'+"切换账号"+'</a>');
+      $(".login").html(`<a href="login.html" onclick="return prompt('需要切换账号吗')">切换账号</a>`);
       $(".user").html(obj.user);
     }
     console.log(obj);
