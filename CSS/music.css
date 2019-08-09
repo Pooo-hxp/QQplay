@@ -369,7 +369,6 @@ ol li {
     width: 700px;
     height: 50px;
     display: inline-block;
-    /* 防止这个块级元素把右侧功能块挤到下方 */
 }
 
 .music_bofang_info_top {
@@ -542,7 +541,6 @@ ol li {
 .songwriter2{
     color: rgba(255, 255, 255,0.3);
     display: block;
-    /* visibility: hidden; */
 }
 .songwriter{
     color: green;
