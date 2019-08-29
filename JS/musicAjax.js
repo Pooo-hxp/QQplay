@@ -161,12 +161,7 @@ $(".middler_left_music_list").delegate(".music_ico2","click",function(){
                    async:true,
                    url:'php/music_insertcollect.php',
                    data:{
-                       UserName:obj.user,
-                       title:title,
-                       author:author,
-                       pic:pic,
-                       lrc:lrc,
-                       url:url
+                       
                    },
                   success:function(data){
                    data.infoCode==1?console.log('数据库连接失败')
