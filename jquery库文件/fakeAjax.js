@@ -7,7 +7,7 @@
  *  data    :请求参数(json)
  *  success :请求参数(function)
  * **************************************
- * 引用例子：
+ * 使用示例：
  * <button onclick="request()">发送请求</button>
  * function request(){
  * 	fakeAjax({
