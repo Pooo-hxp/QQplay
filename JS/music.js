@@ -9,7 +9,7 @@ $(function () {
         autohidemode: true //是否隐藏滚动条 
     });
     $('.lrc_content').niceScroll({
-        cursorcolor: "#FFF",//#CC0071 光标颜色 
+        cursorcolor: "#FFF",
         cursoropacitymax: 0.5, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0 
         touchbehavior: false, 
         cursorwidth: "10px", 

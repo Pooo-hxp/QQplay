@@ -138,7 +138,7 @@ $(function () {
    };
     $(".music_stop").click(check);//---底部按钮调用检查函数-----
 
-    //--------------利用事件委托，解决JS在新生节点中不生效------------
+    //--------------事件委托，解决新生节点中JS方法不生效问题------------
     $(".middler_left_music_list").delegate(".music_ico1", "click", function () {
        
         var $item = $(this).parents().parents().parents().siblings();
