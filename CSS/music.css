@@ -2,20 +2,20 @@
     margin: 0;
     padding: 0;
 }
-.action
-{
-    background:rgba(15, 238, 64, 0.15);
+
+.action {
+    background: rgba(15, 238, 64, 0.15);
 }
 
-.tran{
-    color:transparent;
+.tran {
+    color: transparent;
 }
 
-.opac1{
+.opac1 {
     opacity: 1;
 }
 
-.opac2{
+.opac2 {
     opacity: 0.5;
 }
 
@@ -56,8 +56,10 @@ ol li {
     width: 1200px;
     height: 700px;
 }
+
 .middler2 {
-    margin: 0 auto;/* 222222  */
+    margin: 0 auto;
+    /* 222222  */
     width: 1200px;
     height: 700px;
 }
@@ -97,7 +99,7 @@ ol li {
     height: 600px;
 }
 
-.middler_left_music ol{
+.middler_left_music ol {
     height: 50px;
     border-bottom: 1px solid rgba(98, 92, 92, 0.25);
 }
@@ -115,12 +117,14 @@ ol li {
 .music_check {
     width: 50px;
     cursor: pointer;
-    opacity: 0.6;    
+    opacity: 0.6;
 }
-.music_check:hover{
+
+.music_check:hover {
     opacity: 1;
 }
-.music_check input{
+
+.music_check input {
     width: 25px;
     height: 25px;
     margin-top: 13px;
@@ -129,23 +133,25 @@ ol li {
 .music_sing {
     width: 550px;
     cursor: pointer;
-    opacity: 0.6;    
+    opacity: 0.6;
 }
 
-.music_sing .str{
+.music_sing .str {
     position: relative;
     right: 5px;
     width: 20px;
     height: 10px;
-    background:url(../img/wave.gif);
+    background: url(../img/wave.gif);
 }
 
-.music_sing span div{
+.music_sing span div {
     display: inline-block;
 }
-.music_sing:hover{
+
+.music_sing:hover {
     opacity: 1;
 }
+
 .music_sing_div {
     width: 200px;
     height: 100%;
@@ -167,8 +173,8 @@ ol li {
     background-position-y: 0px;
 }
 
-.music_ico11{
-    background-position: -78px  -224px;
+.music_ico11 {
+    background-position: -78px -224px;
 }
 
 .music_ico1:hover {
@@ -186,7 +192,7 @@ ol li {
     background-position-y: 268px;
 }
 
-.music_ico21{
+.music_ico21 {
     background-position-x: 162px;
 }
 
@@ -212,10 +218,10 @@ ol li {
 .music_singer {
     width: 150px;
     cursor: pointer;
-    opacity: 0.6;    
+    opacity: 0.6;
 }
 
-.music_singer:hover{
+.music_singer:hover {
     opacity: 1;
 }
 
@@ -230,6 +236,7 @@ ol li {
     width: 400px;
     height: 100%;
 }
+
 .middler_right2 {
     margin: 0 auto;
     width: 600px;
@@ -260,6 +267,7 @@ ol li {
     background-position-x: 200px;
     background-position-y: 8px;
 }
+
 .middler_right_top2 img {
     text-align: center;
     background-size: 100%;
@@ -276,7 +284,8 @@ ol li {
     user-select: none;
     /*文本不可被选中*/
 }
-.middler_right_bottom2{
+
+.middler_right_bottom2 {
     text-align: center;
     width: 100%;
     height: 150px;
@@ -305,13 +314,14 @@ ol li {
     width: 100%;
     height: 300px;
 }
+
 .word_ofsong2 {
     font-size: 25px;
     width: 100%;
     height: 300px;
 }
 
-.lrc_content{
+.lrc_content {
     width: 100%;
     height: 300px;
     text-align: center;
@@ -485,6 +495,7 @@ ol li {
     height: 21px;
     background-position: 0 -144px;
 }
+
 .bottom .music_voice_ico2 {
     width: 26px;
     height: 21px;
@@ -538,10 +549,11 @@ ol li {
     filter: blur(100px);
 }
 
-.songwriter2{
-    color: rgba(255, 255, 255,0.3);
+.songwriter2 {
+    color: rgba(255, 255, 255, 0.3);
     display: block;
 }
-.songwriter{
+
+.songwriter {
     color: green;
 }

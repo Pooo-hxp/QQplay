@@ -16,7 +16,8 @@
             //背景点击监听
             this.$progressBar.click(function(event){
                 //获取播放背景距离窗口的默认位置
-                var normalLeft=$(this).offset().left;//这里this指向$progressBar;
+                var normalLeft=$(this).offset().left;
+                //这里this指向$progressBar;
                 console.log(normalLeft);
                 //获取点击的位置距离窗口的位置；
                 var eventLeft=event.pageX;
